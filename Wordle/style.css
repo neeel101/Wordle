@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #121213;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 5rem;
+  color: rgb(31, 171, 31);
+  text-align: center;
+}
+.hint span {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: orange;
+}
+.hint h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  display: inline;
+  font-family: "Roboto", sans-serif;
+}
+.hint {
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 1em;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121213;
+}
+.row {
+  display: flex;
+  gap: 1.5vw;
+  margin-bottom: 1rem;
+}
+
+.col {
+  width: 3vw;
+  height: 3vw;
+  border: 3px solid grey;
+  border-radius: 5px;
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: bolder;
+  color: #121213;
+  text-transform: uppercase;
+}
+.warning {
+  font-size: 2rem;
+  color: rgb(220, 27, 27);
+  font-weight: 700;
+}
+
+.animation {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: rgb(225, 32, 93);
+  transform: rotate(360deg);
+  transition: all 3s ease-in-out;
+}
+
+.blurr {
+  filter: blur(5px);
+  pointer-events: none;
+}
+
+.center {
+  position: absolute;
+  top: 30%;
+}
+
+@media (max-width: 470px) {
+  html {
+    font-size: 13px;
+  }
+  .row {
+    gap: 5vw;
+  }
+  .col {
+    width: 13vw;
+    height: 13vw;
+  }
+}
