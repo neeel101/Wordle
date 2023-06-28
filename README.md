@@ -5,4 +5,5 @@ Features user will get a hint related to the word to be guessed (my own feature)
 
 Enjoy playing Wordle Game and have fun guessing words!
 
-# Active-Link -> https://fantastic-tartufo-725257.netlify.app
+# Active-Link :
+  https://fantastic-tartufo-725257.netlify.app
